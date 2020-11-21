@@ -344,7 +344,7 @@ strong {
 }
 
 .hero-content-v2 {
-  margin-top: 144px;
+  margin-top: 100px;
 }
 
 .hero-content-v2 h3 {
@@ -369,7 +369,9 @@ strong {
 
 /* Header Style 3*/
 .header-style-3 {
-  background: url("../img/bg/hero-3-bg.jpg") no-repeat left center;
+  height: 80vh;
+  /* background: url("../img/bg/hero-3-bg.jpg") no-repeat left center; */
+  background: url("../img/bg/my-1.png") no-repeat center;
   background-size: cover;
   padding-top: 80px;
 }
@@ -2131,7 +2133,8 @@ nav#menu span.fa.fa-bars:hover {
 /* / End About */
 /* Start Tesitmonial  */
 .single-testimonial-area {
-  background-image: url(../img/about/testimonial-bg.jpg);
+  /* background-image: url(../img/about/testimonial-bg.jpg); */
+  background-image: url(../img/bg/hero-3-bg.jpg);
   background-size: cover;
   padding: 60px 0;
 }
@@ -3170,6 +3173,11 @@ nav#menu span.fa.fa-bars:hover {
   margin-bottom: 30px;
 }
 
+.contact-container {
+  background-image: url(../img/bg/hero-3-bg.jpg);
+  /* background-image: url(../img/about/testimonial-bg.jpg); */
+}
+
 .contact-form .form-control {
   background: transparent;
   padding: 15px 25px 15px 50px;
@@ -3286,8 +3294,9 @@ address i {
 
 /* Contact Forms */
 #contactForm .form-control {
-  color: #444;
   background: #f7f7f7;
+  /* background-image: url("../img/about/testimonial-bg.jpg"); */
+  color: #444;
   font-weight: 400;
   letter-spacing: 0px;
   border: 1px solid #ddd;
